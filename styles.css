@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body {
+	background-color: hsl(30, 54%, 90%);
+	font-size: 100%;
+}
+.main-box {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 2vw;
+	margin: auto;
+	margin-top: 8.594vw;
+	margin-bottom: 8.594vw;
+	padding: 1.042vw;
+	width: 50.7%;
+	height: 118vw;
+}
+.prep-box {
+	background-color: hsl(330, 100%, 98%);
+	border-radius: 1.5vw;
+	margin: auto;
+	margin-top: 2vw;
+	margin-bottom: 1vw;
+	padding: 1vw;
+	padding-top: 0.5vw;
+	width: 90%;
+	height: 11vw;
+}
+.prep-heading {
+	padding-left: 1vw;
+	color: hsl(332, 51%, 32%);
+	font-size: 1.5vw;
+	font-family: "Outfit";
+    font-weight: 600;
+    font-style: normal;
+	margin-bottom: 0vw;
+}
+
+.prep-list {
+	
+	li::marker {
+		color: hsl(332, 51%, 32%);		
+	}
+	
+	li {
+		padding-left: 1.3vw;
+	}
+	
+	margin-top: 0.6vw;
+	padding-left: 2.5vw;
+	color: hsl(30, 10%, 34%);
+	font-size: 1vw;
+	font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+	line-height: 2.1vw;
+}
+
+.ingredients {
+	padding-left: 0.6vw;
+}
+
+.ingredients-heading {
+	padding-left: 1vw;
+	color: hsl(14, 45%, 36%);
+	font-size: 2vw;
+	font-family: "Young Serif";
+    font-weight: 400;
+    font-style: normal;
+	margin-bottom: 1vw;
+}
+
+.ingredients-list {
+	
+	li::marker {
+		color: hsl(14, 45%, 36%);		
+	}
+	
+	li {
+		padding-left: 1.3vw;
+	}
+	
+	margin-top: 0.6vw;
+	padding-left: 2.5vw;
+	color: hsl(30, 10%, 34%);
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+	line-height: 2.2vw;
+}
+
+.instructions {
+	padding-left: 0.6vw;
+}
+
+.instructions-heading {
+	padding-left: 1vw;
+	color: hsl(14, 45%, 36%);
+	font-size: 2vw;
+	font-family: "Young Serif";
+    font-weight: 400;
+    font-style: normal;
+	margin-bottom: 1vw;
+}
+
+.instructions-list {
+	
+	li::marker {
+		font-weight: bold;
+		color: hsl(14, 45%, 36%);		
+	}
+	
+	li {
+		padding-left: 1.3vw;
+	}
+	
+	margin-top: 0.6vw;
+	padding-left: 2.5vw;
+	color: hsl(30, 10%, 34%);
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+	line-height: 2.2vw;
+}
+
+.nutrition {
+	padding-left: 0.6vw;
+}
+
+.nutrition-heading {
+	padding-left: 1vw;
+	color: hsl(14, 45%, 36%);
+	font-size: 2vw;
+	font-family: "Young Serif";
+    font-weight: 400;
+    font-style: normal;
+	margin-bottom: 1vw;
+}
+
+img {
+	border-radius: 1.5vw;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	display: block;
+	width: 90%;
+}
+h1 {
+	padding-left: 2.604vw;
+	color: hsl(24, 5%, 18%);
+	font-size: 2.9vw;
+	font-family: "Young Serif";
+    font-weight: 400;
+    font-style: normal;
+	margin-bottom: 0.521vw;
+}
+p {
+	padding-left: 2.604vw;
+	color: hsl(30, 10%, 34%);
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+	line-height: 1.6;
+}
+
+hr.solid {
+	margin-top: 2vw;
+	margin-left: 1.4vw;
+	margin-right: 1.4vw;
+    border-top: 0.1vw solid #ddd;
+}
+
+.nutrition-type {
+	padding-left: 2vw;
+	color: hsl(30, 10%, 34%);
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+	line-height: 1.6;
+	border-bottom: 0.1vw solid #ddd;
+}
+
+.nutrition-value {
+	padding: 0.7vw;
+	padding-right: 20vw;
+	color: hsl(14, 45%, 36%);
+	padding-left: 2.604vw;
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 600;
+    font-style: normal;
+	line-height: 1.6;
+	border-bottom: 0.1vw solid #ddd;
+}
+.nutrition-type-bottom {
+	padding-left: 2vw;
+	padding-right: 16.7vw;
+	color: hsl(30, 10%, 34%);
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 400;
+    font-style: normal;
+	line-height: 1.6;
+}
+.nutrition-value-bottom {
+	padding: 0.7vw;
+	padding-right: 2vw;
+	color: hsl(14, 45%, 36%);
+	padding-left: 2.604vw;
+	font-size: 1.1vw;
+	font-family: "Outfit";
+    font-weight: 600;
+    font-style: normal;
+	line-height: 1.6;
+}
+.nutrition-table{
+	padding: 0vw;
+	margin-left:1vw;
+}
+
+.nutrition-p{
+	padding-left: 1vw;
+	margin-bottom:0.5vw;
+}
+
